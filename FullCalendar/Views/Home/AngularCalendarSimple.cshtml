@@ -1,0 +1,11 @@
+﻿@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/ACS/App.js"></script>
+    <script type="text/javascript" src="~/Scripts/ACS/calendarCtrl.js"></script>
+}
+
+<div class="container">
+    <div ng-controller="calendarEvent">
+        <div id="calendar" ui-calendar="uiConfig.calendar" class="span8 calendar" ng-model="eventSources"></div>
+    </div>
+</div>
